@@ -1,0 +1,113 @@
+{
+    "app": {
+        "name": "i18next"
+    },
+    "register": {
+        "registerNow": "線上登記",
+        "registerForm": {
+        	"warningNameNone":"請輸入您的名字!",
+        	"warningDOBNone":"請輸入您的出生日期!",
+            "warningNationalityNone":"請輸入您的國籍!",
+            "warningEmailNone":"請輸入您的電子郵件地址!",
+            "warningEmailWrong":"請輸入正確的郵箱地址!",
+            "warningPhoneWrong":"請輸入正確的電話號碼!",
+            "warningMobileNone":"請輸入您的手機號碼!",
+            "warningMobileWrong":"請輸入正確的手機號碼!",
+            "warningAddressNone":"請輸入你的地址!",
+            "warningPostcodeNone":"請輸入您的郵政編碼!",
+            "warningIPTNone":"請選擇感興趣的物業類型!",
+            "warningPPPRNone":"請選擇首選物業價格範圍!",
+            "feedbackSendingEnquiry":"發送註冊...",
+            "feedbackEnquirySent":"註冊已被發送",
+            "feedbackThankEnquiry":"謝謝!你的註冊已發送",
+            "feedbackCannotConnectServer":"無法連接到服務器",
+            "feedbackError":"錯誤",
+            
+            "registerDay":"日",
+            "registerMonth":"月",
+            "registerYear":"年",
+            "registerPleaseSelect": "----- 請選擇 -----",
+            "registerCountryCode": "國家代碼",
+            "registerAreaCode": "區域號碼",
+            "registerPhoneNumber": "電話號碼",
+            "registerTitle": "稱號",
+            "registerTitles": {
+                "Tan Sri": "丹斯里",
+                "Puan Sri": "潘斯里",
+                "Dato'": "拿督",
+                "Datuk": "拿督",
+                "Datin": "拿汀斯里",
+                "Dr": "博士",
+                "Ir": "Ir",
+                "Mr": "先生",
+                "Madam": "女士",
+                "Miss": "小姐"
+            },
+            "registerName": "姓名",
+            "registerDOB": "出生日期",
+            "registerAG": "年齡組",
+            "registerAGs": {
+                "51above": "51或以上"
+            },
+            "registerNationality": "國籍",
+            "registerEmail": "電子郵件",
+            "registerGender": "性别",
+            "registerGenders": {
+                "Male": "男",
+                "Female": "女"
+            },
+            "registerTel": "電話號碼 (住家/辦公室)",
+            "registerMobile": "手機號碼",
+            "registerPOP": "購買目的",
+            "registerPOPs": {
+                "Investment": "投資",
+                "Own Use": "自住"
+            },
+            "registerSOA": "資訊來源",
+            "registerSOAs": {
+                "Website": "網站",
+                "Billboard": "廣告牌",
+                "Maildrop": "傳單",
+                "Newspaper": "報紙",
+                "Email": "郵件",
+                "SMS": "短信",
+                "Exhibition": "展覽會",
+                "BannerBunting": "布條",
+                "Hoarding": "圍欄",
+                "Magazine": "雜誌",
+                "Friends": "朋友",
+                "Radio": "電台",
+                "Others": "其他"
+            },
+            "registerAddress": "地址",
+            "registerPostcode": "郵編號碼",
+            "registerCity": "城市",
+            "registerState": "州屬",
+            "registerCountry": "國家",
+            "registerPMOC": "建議通訊模式",
+            "registerPMOCs": {
+                "Email": "電子郵件",
+                "Mail": "郵件",
+                "Telephone": "電話",
+                "SMS": "短訊"
+            },
+            "registerIPT": "感興趣的物業類型",
+            "registerIPTs": {
+                "Condominium": "公寓",
+                "Serviced Apartment": "服務式公寓",
+                "Hotel Suites": "豪華酒店",
+                "Retail Shop": "商店",
+                "Offices": "辦公室",
+                "Others": "其他"
+            },
+            "registerPPPR": "首選物業價格範圍",
+            "registerPPPRs": {
+                "301kto500k": "RM301,000 至 RM500,000",
+                "501kto1000k": "RM501,000 至 RM1,000,000",
+                "1000kabove": "RM1,000,000 及以上"
+            },
+            "registerReset": "重置",
+            "registerSubmit": "提交"
+        }
+    }
+}

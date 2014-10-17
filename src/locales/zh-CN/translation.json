@@ -1,0 +1,140 @@
+{
+
+    "warning-name-empty": "请输入您的名字!",
+    "warning-date-of-birth-empty": "请输入您的出生日期!",
+    "warning-nationality-empty": "请输入您的国籍!",
+    "warning-email-empty": "请输入您的电子邮件地址!",
+    "warning-email-invalid": "请输入正确的邮箱地址!",
+    "warning-phone-invalid": "请输入正确的电话号码!",
+    "warning-mobile-empty": "请输入您的手机号码!",
+    "warning-mobile-invalid": "请输入正确的手机号码!",
+    "warning-address-empty": "请输入你的地址!",
+    "warning-postcode-empty": "请输入您的邮政编码!",
+    "warning-interest-property-type-empty": "请选择感兴趣的物业类型!",
+    "warning-preferred-property-price-range-empty": "请选择首选物业价格范围!",
+    "feedback-sending-enquiry": "发送注册...",
+    "feedback-enquiry-sent": "注册已被发送.",
+    "feedback-thank-enquiry": "谢谢!你的注册已发送.",
+    "feedback-cannot-connect-server": "无法连接到服务器!",
+    "feedback-error": "错误",
+
+    "REGISTRATION":"线上登记",
+    
+    "please-select": "----- 请选择 -----",
+
+    "Title": "称号",
+    "Tan Sri": "丹斯里",
+    "Puan Sri": "潘斯里",
+    "Dato'": "拿督",
+    "Datuk": "拿督",
+    "Datin": "拿汀斯里",
+    "Dr": "博士",
+    "Ir": "Ir",
+    "Mr": "先生",
+    "Madam": "女士",
+    "Miss": "小姐",
+
+    "Name": "姓名",
+
+    "Date of Birth": "出生日期",
+    "Day": "日",
+    "Month": "月",
+    "Year": "年",
+
+    "Age Group": "年龄组",
+    "51 and above": "51或以上",
+
+    "Nationality": "国籍",
+
+    "Email": "电子邮件",
+
+    "Gender": "性别",
+    "Male": "男",
+    "Female": "女",
+    "Tel-home-office": "电话号码<br><small>(住家/办公室)</small>",
+
+    "Mobile": "手机号码",
+    "Country Code": "国家代码",
+    "Area Code": "区域号码",
+    "Phone Number": "电话号码",
+
+    "Purpose of Purchase": "购买目的",
+    "Investment": "投资",
+    "Own Use": "自住",
+
+    "Source of Awareness": "资讯来源",
+    "Website": "网站",
+    "Billboard": "广告牌",
+    "Maildrop": "传单",
+    "Newspaper": "报纸",
+    "Email": "邮件",
+    "SMS": "短信",
+    "Exhibition": "展览会",
+    "Banner-Bunting": "布条",
+    "Hoarding": "围栏",
+    "Magazine": "杂志",
+    "Friends": "朋友",
+    "Radio": "电台",
+    "Others": "其他",
+
+
+    "Address": "地址",
+
+    "Post Code": "邮编号码",
+
+    "City": "城市",
+
+    "State": "州属",
+
+    "Country": "国家",
+
+    "Preferred Mode of Communication": "建议通讯模式",
+    "Email": "电子邮件",
+    "Mail": "邮件",
+    "Telephone": "电话",
+    "SMS": "短讯",
+
+    "Interested Property Type": "感兴趣的物业类型",
+    "Condominium": "公寓",
+    "Serviced Apartment": "服务式公寓",
+    "Hotel Suites": "豪华酒店",
+    "Retail Shop": "商店",
+    "Offices": "办公室",
+    "3 Storey Garden Terrance": "三层高级排屋",
+    "Others": "其他",
+
+    "Preferred Price Range": "首选物业价格范围",
+    "301kto500k": "RM301,000 至 RM500,000",
+    "501kto1000k": "RM501,000 至 RM1,000,000",
+    "1001kabove": "RM1,001,000 或以上",
+    "501kto700k": "RM501,000 至 RM700,000",
+    "701kto1000k": "RM701,000 至 RM1,000,000",
+
+    "like-to-receive": "关注项目",
+    "Landscape": "景观",
+    "Package": "配套",
+    "Type": "户型",
+    "Facility": "设施",
+
+    "Residential Status": "目前居住状态",
+    "Owned": "自购",
+    "Rent": "租用",
+
+    "Family Structure": "家庭结构",
+    "1-2 people": "1至2 人",
+    "2-4 people": "2至4 人",
+    "4 people and above": "4 人或以上",
+
+    "Interested Area": "关注区域",
+    "Klang Valley": "巴生谷",
+    "Selangor": "雪兰莪",
+    "Putra Jaya": "布城",
+
+    "by-clicking-the-submit-button-1": "本人/吾等理解Eastern Corridor Sdn. Bhd. (Company No. 290761-T)和其集团的公司的声明，（以下简称“开发商”）正在收集本人/吾等的个人资料的目的。本人/吾等已阅读及明白<a href='Eastern Corridor Personal Data Plan.pdf' target='_blank'>个人资料的通知</a>，并在此明确的同意开发商收集和处理本人/吾等的个人资料。",
+    "by-clicking-the-submit-button-2": "All renderings are artist impression only. All measurements are approximate. While every reasonable care has been taken in preparing this project brief, the developer cannot be held responsible for any inaccuracy. All the above items are subject to variations, modifications and substitutions as may be required by the Authorities or recommended by the Architect or Engineer",
+
+
+    "Reset": "重置",
+    "Submit": "提交"
+
+}

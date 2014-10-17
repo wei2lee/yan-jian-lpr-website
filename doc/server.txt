@@ -1,0 +1,40 @@
+New Account Information
+
+Hosting Package: Linux Web Hosting - Silver Plan
+Domain: lakepointresidence.com.my
+First Payment Amount: RM250.00
+Recurring Amount: RM250.00
+Billing Cycle: 1 Year Price
+Next Due Date: 14/10/2014
+
+To access Cpanel, please login to:
+URL: http://lakepointresidence.com.my/cpanel or http://202.157.177.148/cpanel
+Username: lake6253
+Password: eq3q@5f34$
+You can configure your web & email account via this login.
+
+To upload web pages using FTP, please login to:
+FTP Host: ftp://lakepointresidence.com.my or ftp://202.157.177.148
+Username: lake6253
+Password: eq3q@5f34$
+Please upload your own index.html and replace the existing copy in "/public_html" directory to get your website started.
+
+To setup your Email at the first time, please login as below:
+URL: http://lakepointresidence.com.my/cpanel or http://202.157.177.148/cpanel
+Username: lake6253
+Password: eq3q@5f34$
+To setup email account, go to "Mail" -> "Email Accounts" -> "Add a New Email Account". To access your mailbox after setup complete, go to http://mail.lakepointresidence.com.my/webmail. Login by using email address and password that you have saved in the setup.
+
+For pop3 email accounts that you setup, you should use the following connection details in your email program:
+POP3 Host Address: mail.lakepointresidence.com.my Port: 110
+SMTP Host Address: mail.lakepointresidence.com.my Port: 587
+Our outgoing mail server (SMTP) requires authentication to send mail. To do this, check this option: "My server requires authentication" in settings.
+
+DNS Information:
+Nameserver 1: ns12.mysecurewebserver.com
+Nameserver 2: ns13.mysecurewebserver.com
+If you are using an existing domain with your new hosting account, you will need to update the nameservers to point to the nameservers listed above.
+
+Please visit our support centre for more information and tutorials.
+
+Thank you for being NAXLEVEL customer.

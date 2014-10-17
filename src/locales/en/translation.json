@@ -1,0 +1,140 @@
+{
+
+    "warning-name-empty": "Please enter your name!",
+    "warning-date-of-birth-empty": "Please enter your date of birth!",
+    "warning-nationality-empty": "Please enter your nationality!",
+    "warning-email-empty": "Please enter your email address!",
+    "warning-email-invalid": "Please enter correct email address!",
+    "warning-phone-invalid": "Please enter correct phone number!",
+    "warning-mobile-empty": "Please enter your mobile number!",
+    "warning-mobile-invalid": "Please enter correct mobile number!",
+    "warning-address-empty": "Please enter your address!",
+    "warning-postcode-empty": "Please enter your postcode!",
+    "warning-interest-property-type-empty": "Please select Interest Property Type!",
+    "warning-preferred-property-price-range-empty": "Please select Preferred Property Price Range!",
+    "feedback-sending-enquiry": "Sending enquiry...",
+    "feedback-enquiry-sent": "Enquiry has been sent.",
+    "feedback-thank-enquiry": "Thank you! Your enquiry has been sent.",
+    "feedback-cannot-connect-server": "Cannot connect to server!",
+    "feedback-error": "Error",
+
+    "REGISTRATION":"REGISTRATION",
+    
+    "please-select": "----- Please select -----",
+
+    "Title": "Title",
+    "Tan Sri": "Tan Sri",
+    "Puan Sri": "Puan Sri",
+    "Dato'": "Dato'",
+    "Datuk": "Datuk",
+    "Datin": "Datin",
+    "Dr": "Dr",
+    "Ir": "Ir",
+    "Mr": "Mr",
+    "Madam": "Madam",
+    "Miss": "Miss",
+
+    "Name": "Name",
+
+    "Date of Birth": "Date of Birth",
+    "Day": "Day",
+    "Month": "Month",
+    "Year": "Year",
+
+    "Age Group": "Age Group",
+    "51 and above": "51 and above",
+
+    "Nationality": "Nationality",
+
+    "Email": "Email",
+
+    "Gender": "Gender",
+    "Male": "Male",
+    "Female": "Female",
+    "Tel-home-office": "Tel(home/office)",
+
+    "Mobile": "Mobile",
+    "Country Code": "CountryCode",
+    "Area Code": "Area Code",
+    "Phone Number": "Phone Number",
+
+    "Purpose of Purchase": "Purpose of Purchase",
+    "Investment": "Investment",
+    "Own Use": "Own Use",
+
+    "Source of Awareness": "Source of Awareness",
+    "Website": "Website",
+    "Billboard": "Billboard",
+    "Maildrop": "Maildrop",
+    "Newspaper": "Newspaper",
+    "Email": "Email",
+    "SMS": "SMS",
+    "Exhibition": "Exhibition",
+    "Banner-Bunting": "Banner/Bunting",
+    "Hoarding": "Hoarding",
+    "Magazine": "Magazine",
+    "Friends": "Friends",
+    "Radio": "Radio",
+    "Others": "Others",
+
+
+    "Address": "Address",
+
+    "Post Code": "Postcode",
+
+    "City": "City",
+
+    "State": "State",
+
+    "Country": "Country",
+
+    "Preferred Mode of Communication": "Preferred mode of communication",
+    "Email": "Email",
+    "Mail": "Mail",
+    "Telephone": "Telephone",
+    "SMS": "SMS",
+
+    "Interested Property Type": "Interested Property Type",
+    "Condominium": "Condominium",
+    "Serviced Apartment": "Serviced Apartment",
+    "Hotel Suites": "Hotel Suites",
+    "Retail Shop": "Retail Shop",
+    "Offices": "Offices",
+    "3 Storey Garden Terrance": "3 Storey Garden Terrace",
+    "Others": "Others",
+
+    "Preferred Price Range": "Preferred Price Range",
+    "301kto500k": "RM301,000 to RM500,000",
+    "501kto1000k": "RM501,000 to RM1,000,000",
+    "1001kabove": "RM1,001,000 and above",
+    "501kto700k": "RM501,000 to RM700,000",
+    "701kto1000k": "RM701,000 to RM1,000,000",
+    
+    "like-to-receive": "What would you like to receive update on",
+    "Landscape":"Landscape",
+    "Package":"Package",
+    "Type":"Type",
+    "Facility":"Facility",
+    
+    "Residential Status":"Residential Status",
+    "Owned":"Owned",
+    "Rent":"Rent",
+    
+    "Family Structure":"Family Structure",
+    "1-2 people":"1-2 people",
+    "2-4 people":"2-4 people",
+    "4 people and above":"4 people and above",
+    
+    "Interested Area":"Interested Area",
+    "Klang Valley":"Klang Valley",
+    "Selangor":"Selangor",
+    "Putra Jaya":"Putrajaya",
+    
+    "by-clicking-the-submit-button-1":"I/We hereby acknowledge and understand that Eastern Corridor Sdn. Bhd. (Company No. 290761-T) and its Group of Companies, (“the Developer”) is collecting my/our personal data for the Purpose in our Personal Data Notice. I/We have read and understood the <a href='Eastern Corridor Personal Data Plan.pdf' target='_blank'>Personal Data Notice</a> and hereby expressly give consent to the Developer to collect and process my/our personal data. The information contained herein is subject to change and cannot form part of an offer or contract.",
+    "all-renderings-are-artist-impression-only":"All renderings are artist impression only. All measurements are approximate. While every reasonable care has been taken in preparing this project brief, the developer cannot be held responsible for any inaccuracy. All the above items are subject to variations, modifications and substitutions as may be required by the Authorities or recommended by the Architect or Engineer",
+    
+    
+    "Reset": "Reset",
+    "Submit": "Submit"
+
+}
