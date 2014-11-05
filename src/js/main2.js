@@ -1,5 +1,11 @@
 $(document).ready(function () {
-    $(window).resize(function () {
+//    window.requestAnimationFrame(function ( /* time */ time) {
+//        // time ~= +new Date // the unix time
+//        $(window).trigger('resize');
+//    });
+    $(window).resize(onResize);
+
+    function onResize() {
         var wh = $(window).height();
         $center = $('.center-container');
         $main = $('.main-container');
@@ -11,7 +17,7 @@ $(document).ready(function () {
         $center.css('min-height', h + 'px');
         $main.css('min-height', h + 'px');
         $sidebarright.css('min-height', h + 'px');
-    });
+    }
 
 
 
@@ -28,14 +34,19 @@ $(document).ready(function () {
 
         var url = '';
         var pathnames = ['/home'];
-        if (pathnames.indexOf(event.value) >= 0) {
+//        if (pathnames.indexOf(event.value) >= 0) {
+        if(true){
             url = 'partials' + event.value + '.html';
         } else {
             url = 'partials/home.html';
         }
-            
+
         lastEvent = event;
         $.ajax(url).done(function (data) {
+            var $cnt = $('.center-container').children();
+            $cnt.fadeOut(100, function(){
+                 
+            });
             $('.center-container').empty();
             $(data).appendTo($('.center-container'));
             $('a').each(function () {
