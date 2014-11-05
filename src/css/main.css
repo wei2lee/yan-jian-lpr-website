@@ -403,7 +403,7 @@ body {
   min-height: 1px;
   padding-left: 0;
   padding-right: 0;
-  background: #eae8dc url(../img/siteplan-1.jpg) no-repeat center 90px;
+  background: #eae8dc url(../img/siteplan-1.jpg) no-repeat center center;
   background-size: cover;
 }
 @media (min-width: 768px) {
@@ -451,5 +451,62 @@ body {
   }
 }
 .main-siteplan.sidebar-right .title {
+  margin-bottom: 30px;
+}
+.main-floorplan.main-container {
+  float: left;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #eae8dc url(../img/floorplan-1.jpg) no-repeat center center;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .main-floorplan.main-container {
+    float: left;
+    width: 58.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .main-floorplan.main-container {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 2200px) {
+  .main-floorplan.main-container {
+    float: left;
+    width: 75%;
+  }
+}
+.main-floorplan.sidebar-right {
+  float: left;
+  width: 0%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 768px) {
+  .main-floorplan.sidebar-right {
+    float: left;
+    width: 41.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .main-floorplan.sidebar-right {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 2200px) {
+  .main-floorplan.sidebar-right {
+    float: left;
+    width: 25%;
+  }
+}
+.main-floorplan.sidebar-right .title {
   margin-bottom: 30px;
 }

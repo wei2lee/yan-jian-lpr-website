@@ -367,11 +367,30 @@ body {
         .make-lg-column(8, 0);
         .make-xxlg-column(9, 0);
         
-        background: @brand-bg-light url(../img/siteplan-1.jpg) no-repeat center @nav-height;
+        background: @brand-bg-light url(../img/siteplan-1.jpg) no-repeat center center;
         background-size: cover;
     }
-    
-    
+    &.sidebar-right {
+        .make-xs-column(0, 0);
+        .make-sm-column(5, 0);
+        .make-lg-column(4, 0);
+        .make-xxlg-column(3, 0);
+        
+        .title { margin-bottom:30px; }
+        img {}   
+    }
+}
+
+.main-floorplan {
+    &.main-container {
+        .make-xs-column(12, 0);
+        .make-sm-column(7, 0);
+        .make-lg-column(8, 0);
+        .make-xxlg-column(9, 0);
+        
+        background: @brand-bg-light url(../img/floorplan-1.jpg) no-repeat center center;
+        background-size: cover;
+    }
     &.sidebar-right {
         .make-xs-column(0, 0);
         .make-sm-column(5, 0);
