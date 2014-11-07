@@ -14,154 +14,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+    <!--        <link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bower_components/videojs/dist/video-js/video-js.min.css">
+
+    <!--    <link rel="stylesheet" href="css/main.css">-->
     <!--        <script src="js/vendor/modernizr-2.6.2.min.js"></script>-->
 </head>
 
-<body>
+<body id='intro'>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class='box'>
-        <div class='sidebar-left'>
-            <ul class="nav nav-sidebar" id="accordion">
-                <li><a href="#/concept">concept</a>
-                </li>
-                <li><a href="javascript:;" data-parent="#accordion" data-toggle="collapse" data-target="#subnav-facilities">facilities</a>
-                    <ul id="subnav-facilities" class="collapse subnav">
-                        <li>
-                            <a class='subnav-2-line-li' href="#/facilities/phase1"><small>Phase 1</small><div>3-Storey Garden Terrance</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/facilities/phase2"><small>Phase 2</small><div>Condominium</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/facilities/phase3"><small>Phase 3</small><div>Condominium</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/facilities/phase4"><small>Phase 4</small><div>3-Storey Garden Terrance</div></a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="javascript:;" data-parent="#accordion" data-toggle="collapse" data-target="#subnav-floorplan">floor plan</a>
-                    <ul id="subnav-floorplan" class="collapse subnav">
-                        <li>
-                            <a class='subnav-2-line-li' href="#/floorplan/phase1"><small>Phase 1</small><div>3-Storey Garden Terrance</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/floorplan/phase2"><small>Phase 2</small><div>Condominium</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/floorplan/phase3"><small>Phase 3</small><div>Condominium</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/floorplan/phase4"><small>Phase 4</small><div>3-Storey Garden Terrance</div></a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="javascript:;" data-parent="#accordion" data-toggle="collapse" data-target="#subnav-siteplan">site plan</a>
-                    <ul id="subnav-siteplan" class="collapse subnav">
-                        <li>
-                            <a class='subnav-2-line-li' href="#/siteplan/phase1"><small>Phase 1</small><div>3-Storey Garden Terrance</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/siteplan/phase2"><small>Phase 2</small><div>Condominium</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/siteplan/phase3"><small>Phase 3</small><div>Condominium</div></a>
-                        </li>
-                        <li>
-                            <a class='subnav-2-line-li' href="#/siteplan/phase4"><small>Phase 4</small><div>3-Storey Garden Terrance</div></a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="javascript:;" data-parent="#accordion" data-toggle="collapse" data-target="#subnav-gallery">gallery</a>
-                    <ul id="subnav-gallery" class="collapse subnav">
-                        <li>
-                            <a href="#/gallery/event">Event</a>
-                        </li>
-                        <li>
-                            <a href="#/gallery/overall-development">Overall Development</a>
-                        </li>
-                        <li>
-                            <a href="#/gallery/construction-progress">Construction Progress</a>
-                        </li>
-                        <li>
-                            <a href="#/gallery/animation-video">Animation Video</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="bottom-logo">
-                <img class='img-responsive' src="img/sidebar_logo@2x.png" alt="" />
-            </div>
-        </div>
-        <div class='right-content'>
-            <div class="nav-container navbar navbar-inverse navbar-fixed-top" role="navigation">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"></a>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#/home">HOME</a>
-                            </li>
-                            <li><a href="#/location">LOCATION</a>
-                            </li>
-                            <li><a href="#/register">REGISTRATION</a>
-                            </li>
-                            <li><a href="#/contact">CONTACT US</a>
-                            </li>
-                            <li><a href="#">E BROCHURE</a>
-                            </li>
-                            <li class='top-logo'>
-                                <img src='img/topbar_logo.png'>
-                            </li>
-                        </ul>
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #intro {} .wrapper {
+            position: relative;
+            height: 100%;
+        }
+        .videocontent {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 0;
+        }
+        .video-js {
+            padding-top: 56.25%;
+            position: relative;
+            z-index: 0;
+        }
+        .vjs-fullscreen {
+            padding-top: 0px
+        }
+        video {
+            background-color: #313434;
+        }
+    </style>
 
-                    </div>
-                </div>
-            </div>
+    <div class="wrapper" id="wrapper">
+        <div class="videocontent">
 
-            <div class='center-container'>
-            </div>
+
+            <video id='loop-video' class="video-js vjs-default-skin vjs-fullscreen" loop preload="auto" width="auto" height="auto" poster="img/intro-video-poster.png">
+                <source src="video/video2/LPR_intro_animation(1600x780)2.mp4" type='video/mp4' />
+                <source src="video/video2/LPR_intro_animation(1600x780)2.webmhd.webm" type='video/webm' />
+                <source src="video/video2/LPR_intro_animation(1600x780)2.ogg" type='video/ogg' />
+            </video>
+            
+            <video id="intro-video" class="video-js vjs-default-skin vjs-fullscreen" autoplay preload="auto" width="auto" height="auto" poster="img/intro-video-poster.png" data-setup="{}">
+                <source src="video/video1/LPR_intro_animation(1600x780)1.mp4" type='video/mp4' />
+                <source src="video/video1/LPR_intro_animation(1600x780)1.webmhd.webm" type='video/webm' />
+                <source src="video/video1/LPR_intro_animation(1600x780)1.ogg" type='video/ogg' />
+            </video>
         </div>
     </div>
+
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/videojs/dist/video-js/video.js"></script>
+
     <script>
-        window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')
+        $(document).ready(function () {            
+            $('body').click(function () {
+                window.location = 'content.html#/home'; 
+                console.log('body click');
+            });
+
+            var player_ready = 0;
+            var player_loadeddata = 0;
+            videojs.options.children.loadingSpinner = false;
+            
+            var introplayer = videojs('#intro-video').ready(function(){
+                //$(this).hide();
+                
+                this.on('loadeddata', function (evt) {   
+                    console.log('intro ' + evt.type);
+                });
+                this.on('play', function (evt) {
+                    console.log('intro ' + evt.type);
+                });
+                this.on('ended', function(evt) {
+                    console.log('intro ' + evt.type);
+                    $('#intro-video').remove();
+                    loopplayer.play();
+                    console.log('start loop');
+                });            
+            });
+            
+            var loopplayer = videojs('#loop-video').ready(function(){
+                $(this).hide();
+                
+                this.on('loadeddata', function (evt) {
+                    console.log('loop ' + evt.type);
+                });
+                this.on('ended', function (evt) {
+                    console.log('loop ' + evt.type);
+                });
+                this.on('play', function (evt) {
+                    console.log('loop ' + evt.type);
+                });
+            });
+        });
     </script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/jquery-address/src/jquery.address.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/main2.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-//        (function (b, o, i, l, e, r) {
-//            b.GoogleAnalyticsObject = l;
-//            b[l] || (b[l] =
-//                function () {
-//                    (b[l].q = b[l].q || []).push(arguments)
-//                });
-//            b[l].l = +new Date;
-//            e = o.createElement(i);
-//            r = o.getElementsByTagName(i)[0];
-//            e.src = '//www.google-analytics.com/analytics.js';
-//            r.parentNode.insertBefore(e, r)
-//        }(window, document, 'script', 'ga'));
-//        ga('create', 'UA-XXXXX-X');
-//        ga('send', 'pageview');
+        //            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+         //            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+         //            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+         //            e.src='//www.google-analytics.com/analytics.js';
+         //            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+         //            ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
 </body>
 
